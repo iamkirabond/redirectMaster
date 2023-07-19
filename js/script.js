@@ -62,6 +62,8 @@ let validateLink = function(links){
 }
 
 addLinks.onclick = function () {
+
+    getInitialLinks()
     let linksFromField = document.getElementById("links-from")
     let linksToField = document.getElementById("links-to")
     let linksFrom = linksFromField.value.split('\n')
