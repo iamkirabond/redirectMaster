@@ -85,8 +85,6 @@ addLinks.onclick = function () {
                 }
             })
             final_content.push(lineToAdd)
-            linksFromField.value = ''
-            linksToField.value = ''
         }
         else{
             showError("This redirect already appeared in file.")
