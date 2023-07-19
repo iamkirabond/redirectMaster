@@ -33,7 +33,8 @@ clearButton.onclick = function () {
 
 function getInitialLinks () {
     let initial_content = document.getElementById("initial_links").value
-
+    final_content = [] 
+    
     if (initial_content.length == 0)
         return
     
